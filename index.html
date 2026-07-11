@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Nasir Uddin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">Nasir<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="highlight">Md. Nasir Uddin</span></h1>
+            <h3>CSE Student | Cybersecurity Enthusiast | ML Learner</h3>
+            <p>Passionate about Cybersecurity, ethical hacking, and learning how to protect systems and networks from cyber threats.</p>
+            <div class="buttons">
+                <a href="#contact" class="btn primary-btn">Hire Me</a>
+                <a href="files/cv.pdf" class="btn secondary-btn" download>Download CV</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="Md. Nasir Uddin">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p>I am a 3rd-year Computer Science and Engineering student from Bangladesh Army International University of Science and Technology. I love transforming complex problems into elegant, logical solutions. Whether it's learning ethical hacking, exploring network security, or building projects related to cybersecurity and machine learning, I am always eager to learn and grow.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">Python</div>
+            <div class="skill-box">C</div>
+            <div class="skill-box">C++</div>
+            <div class="skill-box">Java Script</div>
+            <div class="skill-box">Django</div>
+            <div class="skill-box">MySQL</div>
+            <div class="skill-box">Competitive Programming</div>
+            <div class="skill-box">Graphics Design</div>
+            <div class="skill-box">Kali Linux</div>
+            <div class="skill-box">Cybersecurity Basics</div>
+            <div class="skill-box">Networking Basics</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Cybershield</h3>
+                <p>An Intrusion Detection System (IDS) incorporating Machine Learning for advanced threat analysis and anomaly detection.</p>
+                <div class="tech-stack">Python | ML | Scapy</div>
+                <a href="https://github.com/nasir4848/LMS_project" class="project-link">View GitHub <i class="fab fa-github"></i></a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>The Online Ostad</h3>
+                <p>A comprehensive Django-based Learning Management System featuring user authentication and dynamic course enrollment.</p>
+                <div class="tech-stack">Python | Django | HTML/CSS</div>
+                <a href="https://github.com/nasir4848/LMS_project" class="project-link">View GitHub <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section (NEW) -->
+    <section id="education" class="education-section">
+        <h2 class="section-title">My <span>Education</span></h2>
+        <div class="education-container">
+            <!-- University -->
+            <div class="education-card">
+                <h3>B.Sc. in Computer Science and Engineering</h3>
+                <p class="institution">Bangladesh Army International University of Science and Technology (BAIUST)</p>
+                <p class="year">2023 - Present (3rd Year)</p>
+            </div>
+            <!-- College -->
+            <div class="education-card">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p class="institution">Cumilla Government College</p>
+                <p class="year">2020-2022</p>
+            </div>
+            <!-- School -->
+            <div class="education-card">
+                <h3>Secondary School Certificate (SSC)</h3>
+                <p class="institution">Cumilla Modern High School</p>
+                <p class="year">2015-2020</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <h2 class="section-title">My <span>Certifications</span></h2>
+        <div class="cert-grid">
+            <!-- Certificate 1 -->
+            <div class="cert-card">
+                <i class="fas fa-award"></i>
+                <h3>Educational Certificate</h3>
+                <p>Issued by: Ministry of Education, Bangladesh</p>
+                
+                <a href="javascript:void(0);" onclick="openModal(['images/edu1.jpg', 'images/edu2.jpg', 'images/edu3.jpg'])" class="cert-link">View Certificates</a>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="cert-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Competitive Programming</h3>
+                <p>Issued by: The Organizing Institution</p>
+                
+                <a href="javascript:void(0);" onclick="openModal(['images/cp1.jpg', 'images/cp2.jpg', 'images/cp3.jpg', 'images/cp4.jpg'])" class="cert-link">View Certificates</a>
+            </div>
+            <!-- Certificate 3 -->
+            <div class="cert-card">
+                <i class="fas fa-award"></i>
+                <h3>Co-curricular Activities</h3>
+                <p>Issued by: The Organizing Institution</p>
+                
+                <a href="javascript:void(0);" onclick="openModal(['images/act1.jpg', 'images/act2.jpg'])" class="cert-link">View Certificates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> md.nasiruddin48484@gmail.com</p>
+            <p><i class="fas fa-phone"></i> Phone : 0191360****</p>
+            <div class="social-links">
+                <a href="https://github.com/nasir4848" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/md-nasir-uddin-a35872228/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/mohammad.nasir.961046/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.behance.net/nasiruddin47" target="_blank"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Developed by Md. Nasir Uddin. All Rights Reserved.</p>
+    </footer>
+
+   <!-- Certificate Modal (Pop-up Window) -->
+    <div id="certModal" class="modal">
+        <span class="close">&times;</span>
+        
+        
+        <a class="nav-btn prev" onclick="changeImage(-1)">&#10094;</a>
+        <img class="modal-content" id="certImage">
+        <a class="nav-btn next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
